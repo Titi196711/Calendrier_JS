@@ -1,0 +1,98 @@
+:root {
+    --button-bg-color: #4F92FF;
+}
+
+h1{
+    text-align: center;
+}
+.jour{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 2%;
+    border: 1px solid black;
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#calendrier{
+    width: 64%;
+    padding-top: 4%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+
+#gauche {
+    padding: 1%;
+    font-size: 2em;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    border-radius: 25%;
+    background-color: var(--button-bg-color);
+}
+#droite{
+    padding: 1%;
+    font-size: 2em;
+    position: absolute;
+    top: 2%;
+    right: 20%;
+    border-radius: 25%;
+    background-color: var(--button-bg-color);
+}
+
+#j1,#j2,#j3,#j4,#j5,#j6,#j7,#j8,#j9,#j10,#j11,#j12,#j13,#j14,#j15,#j16,#j17,#j18,#j19,#j20,
+#j21,#j22,#j23,#j24,#j25,#j26,#j27,#j28,#j29,#j30,#j31{
+    width: 100%;
+}
+
+#d1 > button,#d2 > button,#d3 > button,#d4 > button,#d5 > button,#d6 > button,#d7 > button,#d8 > button,
+#d9 > button,#d10 > button,#d11 > button,#d12 > button,#d13 > button,#d14 > button,#d15 > button,#d16 > button,
+#d17 > button,#d18 > button,#d19 > button,#d20 > button,#d21 > button,#d22 > button,#d23 > button,#d24 > button,
+#d25 > button,#d26 > button,#d27 > button,#d28 > button,#d29 > button,#d30 > button,#d31 > button,#d32 > button,
+#d33 > button,#d34 > button,#d35 > button,#d36 > button,#d37 > button,#d38 > button,#d39 > button,#d40 > button,
+#d41 > button,#d42 > button{
+    border-radius: 40%;
+    background-color: var(--button-bg-color);
+    color: white;
+    width: 75%;
+    height: 75%;
+}
+
+
+@media (max-width: 992px){
+    .jour{
+        padding: 0;
+        font-size: 1em;
+        margin-top: 1%;
+    }
+    #calendrier{
+        width: 98%;
+        margin: 1% 1%;
+        padding-top: 10%;
+    }
+    #droite{
+        right: 1%;
+        top: 1%;
+    }
+    #gauche{
+        left: 1%;
+        top: 1%;
+    }
+    button{
+        margin: 1px;
+    }
+    h1{
+        font-size: 36px;
+    }
+}
