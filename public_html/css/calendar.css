@@ -9,7 +9,7 @@ h1{
     font-size: 1.2em;
     font-weight: bold;
     padding: 2%;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 14%;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@ h1{
 
 #gauche {
     padding: 1%;
-    font-size: 2em;
+    font-size: 1.5em;
     position: absolute;
     top: 2%;
     left: 20%;
@@ -43,7 +43,7 @@ h1{
 }
 #droite{
     padding: 1%;
-    font-size: 2em;
+    font-size: 1.5em;
     position: absolute;
     top: 2%;
     right: 20%;
@@ -62,11 +62,11 @@ h1{
 #d25 > button,#d26 > button,#d27 > button,#d28 > button,#d29 > button,#d30 > button,#d31 > button,#d32 > button,
 #d33 > button,#d34 > button,#d35 > button,#d36 > button,#d37 > button,#d38 > button,#d39 > button,#d40 > button,
 #d41 > button,#d42 > button{
-    border-radius: 40%;
+    border-radius: 25%;
     background-color: var(--button-bg-color);
     color: white;
-    width: 75%;
-    height: 75%;
+    width: 90%;
+    height: 95%;
 }
 
 

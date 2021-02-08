@@ -171,5 +171,5 @@ function messa() {
     lemessage += " à " + $(time).val() + '\n';
     lemessage += "Merci \n";
     lemessage += "Bien cordialement.";
-    $(message).val(lemessage);
+    $(messag).val(lemessage);
 }
